@@ -28,7 +28,6 @@ class Enclosure{
 		Animal a  = new Animal();
 		
 		return a;
-		
 	}
 	
 }
