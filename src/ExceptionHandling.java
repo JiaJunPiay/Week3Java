@@ -22,6 +22,8 @@ class Launch{
 		finally {
 			System.out.println("Program is done!");
 		}
+		//Anything below here not in finally method will not run if an exception is thrown
+		System.out.println("Program is here!");
 	}
 }
 
@@ -94,7 +96,7 @@ public class ExceptionHandling {
 		catch(Exception e) {
 			System.out.println("Main here!");
 		}
-		
+		System.out.println("Connnection here!");
 		
 	}
 
